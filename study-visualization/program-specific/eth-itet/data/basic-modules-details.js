@@ -92,8 +92,8 @@ window.StudiengangModuleDetails = {
         url: "https://raw.githubusercontent.com/KLubina/ITETHub/main/old-exams/ITET-old-exams/2.Sem/Analysis-II/Analysis-II-FS24-Exam-Analyzed.pdf",
       },
       {
-        label: "Zusammenfassung (Ananya)",
-        url: "https://raw.githubusercontent.com/KLubina/ITETHub/main/old-exams/ITET-old-exams/2.Sem/Analysis-II/Analysis_ZF_Ananya_V5.pdf",
+        label: "Zusammenfassung (Lukas Cavigelli)",
+        url: "https://raw.githubusercontent.com/KLubina/ITETHub/main/old-exams/ITET-old-exams/2.Sem/Analysis-II/Zusammenfassung%20Analysis%20ITET%20Lukas%20Cavigelli.pdf",
       },
     ],
   },
