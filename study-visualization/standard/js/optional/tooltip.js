@@ -197,10 +197,13 @@ window.StudienplanTooltip = {
       }
 
       if (hilfsmittel) {
-        detailsHTML += `
-          <h4 style="margin-bottom:4px;">📋 Erlaubte Hilfsmittel</h4>
-          <p style="font-size:0.9em;line-height:1.5;margin:0;">${hilfsmittel}</p>
-        `;
+        const items = Array.isArray(hilfsmittel) ? hilfsmittel : [hilfsmittel];
+        detailsHTML += `<h4 style="margin-bottom:6px;">&#x1F4CB; Erlaubte Hilfsmittel</h4>`;
+        detailsHTML += `<ul style="margin:0;padding-left:18px;font-size:0.9em;line-height:1.7;">`;
+        items.forEach((item) => {
+          detailsHTML += `<li>${item}</li>`;
+        });
+        detailsHTML += `</ul>`;
       } else {
         detailsHTML += `<p style="color:#999;font-size:0.9em;">Keine Hilfsmittel-Info verfügbar</p>`;
       }

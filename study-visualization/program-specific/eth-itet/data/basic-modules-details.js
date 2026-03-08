@@ -2,7 +2,7 @@ window.StudiengangModuleDetails = {
   // #region 1 Semester
   "Lineare Algebra": {
     hilfsmittel: "10 A4-Seiten Notizen",
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=192867&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=ALLE&lerneinheitId=192867&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-math/2015/autumn/401-1151-00L/1707a212-2905-448f-b042-6eca940f6c93.html",
     pruefungen: [
@@ -17,26 +17,17 @@ window.StudiengangModuleDetails = {
     ],
   },
   "Analysis 1": {
-    hilfsmittel: "8 A4-Seiten Notizen (von Hand auf Papier geschrieben)",
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=193410&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=ALLE&lerneinheitId=193410&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-math/2016/autumn/401-1261-07L/a65b10a4-c135-3bca-a4f5-c37d9f8b0913.html",
-    pruefungen: [
-      {
-        label: "FS23 Prüfung (analysiert)",
-        url: "https://raw.githubusercontent.com/KLubina/FavoriteStudiesHub/main/old-exams/ITET-old-exams/1.Sem/Analysis-I/Analysis-I-FS23-Exam-Analyzed.pdf",
-      },
-      {
-        label: "Zusammenfassung (Jeremias Baur)",
-        url: "https://raw.githubusercontent.com/KLubina/FavoriteStudiesHub/main/old-exams/ITET-old-exams/1.Sem/Analysis-I/Analysis_1_ZSF_JeremiasBaur.pdf",
-      },
-    ],
   },
 
   Digitaltechnik: {
-    hilfsmittel:
-      "100 A4 Blätter (50 doppelseitige Blätter) — eigene Zusammenfassung, Vorlesungsfolien, alte Prüfungen...",
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=192958&lang=de",
+    hilfsmittel: [
+      "100 A4 Blätter (50 doppelseitige Blätter)",
+      "Eigene Zusammenfassung, Vorlesungsfolien, alte Prüfungen...",
+    ],
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=ALLE&lerneinheitId=192958&lang=de",
     pruefungen: [
       {
         label: "HS18 Aufgabenblatt",
@@ -53,12 +44,15 @@ window.StudiengangModuleDetails = {
     ],
   },
   "Digitaltechnik Praktikum": {
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=193802&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=ALLE&lerneinheitId=193802&lang=de",
   },
   "Netzwerke und Schaltungen I": {
-    hilfsmittel:
-      '2 Seiten A4 Formelsammlung. Buch Albach "Elektrotechnik". Einfacher Taschenrechner erlaubt.',
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=192802&semkez=2025W&ansicht=LEHRVERANSTALTUNGEN&lang=de",
+    hilfsmittel: [
+      "2 Seiten A4 Formelsammlung",
+      'Buch Albach "Elektrotechnik"',
+      "Einfacher Taschenrechner erlaubt",
+    ],
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=192802&semkez=2025W&ansicht=ALLE&lang=de",
     pruefungen: [
       {
         label: "FS20 Prüfung (analysiert)",
@@ -68,7 +62,7 @@ window.StudiengangModuleDetails = {
   },
   "Technische Mechanik": {
     hilfsmittel: "8 Blätter A4",
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=193886&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=ALLE&lerneinheitId=193886&lang=de",
     pruefungen: [
       {
         label: "FS22 Prüfung (analysiert)",
@@ -81,7 +75,7 @@ window.StudiengangModuleDetails = {
     ],
   },
   "Vorkurs Informatik": {
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=193009&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=ALLE&lerneinheitId=193009&lang=de",
     kurslink: "https://lec.inf.ethz.ch/itet/informatik0/2019/",
   },
   // #endregion 1 Semester
@@ -89,7 +83,7 @@ window.StudiengangModuleDetails = {
   // #region 2 Semester
   "Analysis 2": {
     hilfsmittel: "8 A4-Seiten Notizen (selbst von Hand auf Papier geschrieben)",
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=188523&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=ALLE&lerneinheitId=188523&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-math/2016/spring/401-1262-07L/e9902307-e2b7-44f3-8feb-115773280c13.html",
     pruefungen: [
@@ -104,9 +98,12 @@ window.StudiengangModuleDetails = {
     ],
   },
   "Netzwerke und Schaltungen II": {
-    hilfsmittel:
-      "Vorlesungsbücher/-folien/-skript (GdE Albach/Schaller, Microelectr.Circuits). Taschenrechner ohne Schnittstelle/Speicher. Zusammenfassung (wird an Prüfung verteilt)",
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=187813&lang=de",
+    hilfsmittel: [
+      "Vorlesungsbücher/-folien/-skript (GdE Albach/Schaller, Microelectr.Circuits)",
+      "Taschenrechner ohne Schnittstelle/Speicher",
+      "Zusammenfassung (wird an Prüfung verteilt)",
+    ],
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=ALLE&lerneinheitId=187813&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-itet/2023/spring/227-0002-00L",
     pruefungen: [
@@ -117,11 +114,11 @@ window.StudiengangModuleDetails = {
     ],
   },
   "Netzwerke und Schaltungen Praktikum": {
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=188187&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=ALLE&lerneinheitId=188187&lang=de",
   },
   "Physik I": {
     hilfsmittel: "Taschenrechner ohne Kommunikationsmöglichkeit",
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=188037&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=ALLE&lerneinheitId=188037&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-phys/2023/autumn/402-0083-00L.html",
     pruefungen: [
@@ -133,7 +130,7 @@ window.StudiengangModuleDetails = {
   },
   "Informatik I": {
     hilfsmittel: "4 A4-Blätter",
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=187917&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=ALLE&lerneinheitId=187917&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-infk/2016/autumn/252-0847-00L.html",
     pruefungen: [
@@ -149,7 +146,7 @@ window.StudiengangModuleDetails = {
   },
   "Mathematische Methoden": {
     hilfsmittel: "4 A4-Seiten (selbst verfasste Notizen)",
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=188879&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=ALLE&lerneinheitId=188879&lang=de",
     pruefungen: [
       {
         label: "FS23 Prüfung (analysiert)",
@@ -165,72 +162,72 @@ window.StudiengangModuleDetails = {
 
   // #region 3 Semester
   "Analysis 3": {
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=193965&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=ALLE&lerneinheitId=193965&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-math/2015/autumn/401-0363-10L/a36b37a3-3ac0-4e47-8310-b79347db3717.html",
     pruefungen:
       "https://github.com/KLubina/FavoriteStudiesHub/tree/main/old-exams/ITET-old-exams/3.Sem/Analysis-III",
   },
   "Physik II": {
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=193671&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=ALLE&lerneinheitId=193671&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-phys/2017/spring/402-1782-00L.html",
   },
   "Signal- und Systemtheorie I": {
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=193407&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=ALLE&lerneinheitId=193407&lang=de",
     kurslink: "https://www.mins.ee.ethz.ch/teaching/signal/klausuren.html",
     pruefungen:
       "https://github.com/KLubina/FavoriteStudiesHub/tree/main/old-exams/ITET-old-exams/3.Sem/Signal-System-I",
   },
   "Diskrete Mathematik": {
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=194088&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=ALLE&lerneinheitId=194088&lang=de",
     kurslink:
       "https://cadmo.ethz.ch/education/lectures/HS15/DiskreteMathematik.html\nhttps://crypto.ethz.ch/teaching/DM23/",
     pruefungen:
       "https://github.com/KLubina/FavoriteStudiesHub/tree/main/old-exams/ITET-old-exams/3.Sem/Diskrete-Mathematik",
   },
   "Halbleiter-Schaltungstechnik": {
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=193624&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=ALLE&lerneinheitId=193624&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-itet/2022/autumn/227-0077-10L",
   },
   "Halbleiter-Schaltungstechnik Praktikum": {
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=192771&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=ALLE&lerneinheitId=192771&lang=de",
   },
   // #endregion 3 Semester
 
   // #region 4 Semester
   "Signal- und Systemtheorie II": {
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=187298&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=ALLE&lerneinheitId=187298&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-itet/2023/spring/227-0046-10L",
   },
   "Informatik II": {
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=193493&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=ALLE&lerneinheitId=193493&lang=de",
     kurslink: "https://vs.inf.ethz.ch/edu/I2/",
   },
   "Technische Informatik": {
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=187713&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=ALLE&lerneinheitId=187713&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-itet/2023/spring/227-0013-00L",
   },
   "Wahrscheinlichkeitstheorie und Statistik": {
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=187991&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=ALLE&lerneinheitId=187991&lang=de",
     pruefungen:
       "https://github.com/KLubina/FavoriteStudiesHub/tree/main/old-exams/ITET-old-exams/4.Sem/Wahrscheinlichkeitstheorie-und-Statistik",
   },
   "Elektromagnetische Felder und Wellen": {
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=188239&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=ALLE&lerneinheitId=188239&lang=de",
     pruefungen:
       "https://github.com/KLubina/FavoriteStudiesHub/tree/main/old-exams/ITET-old-exams/4.Sem/Elektromagnetische-Felder-und-Wellen",
   },
   Halbleiterelemente: {
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=187791&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=ALLE&lerneinheitId=187791&lang=de",
     pruefungen:
       "https://github.com/KLubina/FavoriteStudiesHub/tree/main/old-exams/ITET-old-exams/4.Sem/Halbleiterelemente",
   },
   "Numerische Methoden": {
-    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=188146&lang=de",
+    link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=ALLE&lerneinheitId=188146&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-math/2016/autumn/401-0663-00L/1e9ea34b-4fc6-4dab-8e3b-dd21bfb732df.html",
     pruefungen:
