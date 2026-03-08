@@ -36,7 +36,9 @@ Informatik I
 4 A4-Blätter mit in die Prüfung nehmen.
 
 Analysis 2
-8 A4-Seiten Notizen, die selbst von Hand auf Papier geschrieben sind.
+8 A4-Seiten Notizen
+selbst von Hand auf Papier geschrieben sind.
 
 Mathematische Methoden
-4 A4-Seiten selbst verfasste Notizen.
+4 A4-Seiten
+selbst verfasste Notizen.
