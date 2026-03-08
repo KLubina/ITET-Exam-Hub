@@ -183,90 +183,33 @@ window.StudienplanTooltip = {
     const name = moduleElement.querySelector(".modul-titel")?.textContent;
     const ects = moduleElement.querySelector(".modul-kp")?.textContent;
 
-    // Hole Details aus window.StudiengangModuleDetails
     let detailsHTML = "";
     if (
       window.StudiengangModuleDetails &&
       window.StudiengangModuleDetails[name]
     ) {
       const details = window.StudiengangModuleDetails[name];
+      const hilfsmittel = details.hilfsmittel;
 
-      detailsHTML = `
-                <h3>${name}</h3>
-                ${ects ? `<div style="font-size: 0.9em; color: #666; margin-bottom: 8px;">${ects}</div>` : ""}
-            `;
-
-      if (details.kurzbeschreibung) {
-        detailsHTML += `
-                    <h4>Kurzbeschreibung</h4>
-                    <p>${details.kurzbeschreibung}</p>
-                `;
+      detailsHTML = `<h3>${name}</h3>`;
+      if (ects) {
+        detailsHTML += `<div style="font-size:0.9em;color:#666;margin-bottom:8px;">${ects}</div>`;
       }
 
-      if (details.inhalt) {
+      if (hilfsmittel) {
         detailsHTML += `
-                    <h4>Inhalte</h4>
-                    <p style="white-space: pre-wrap; font-size: 0.85em; line-height: 1.3;">${details.inhalt}</p>
-                `;
-      }
-
-      // Links
-      if (
-        details.vorlesungslink ||
-        details.pruefungen ||
-        details.skript ||
-        details.link ||
-        details.kurslink
-      ) {
-        detailsHTML += "<h4>Ressourcen</h4>";
-        if (details.vorlesungslink) {
-          detailsHTML += `<p><a href="${details.vorlesungslink}" target="_blank">🎥 Vorlesungsvideos</a></p>`;
-        }
-        if (details.skript) {
-          detailsHTML += `<p><a href="${details.skript}" target="_blank">📄 Skript</a></p>`;
-        }
-        if (details.pruefungen) {
-          if (Array.isArray(details.pruefungen)) {
-            details.pruefungen.forEach((p) => {
-              detailsHTML += `<p><a href="${p.url}" target="_blank">📝 ${p.label}</a></p>`;
-            });
-          } else {
-            detailsHTML += `<p><a href="${details.pruefungen}" target="_blank">📝 Alte Prüfungen</a></p>`;
-          }
-        }
-        if (details.link) {
-          if (Array.isArray(details.link)) {
-            details.link.forEach((link) => {
-              detailsHTML += `<p><a href="${link}" target="_blank">📖 VVZ Seite</a></p>`;
-            });
-          } else {
-            detailsHTML += `<p><a href="${details.link}" target="_blank">📖 VVZ Seite</a></p>`;
-          }
-        }
-        if (details.kurslink) {
-          if (
-            typeof details.kurslink === "string" &&
-            details.kurslink.includes("\n")
-          ) {
-            // Multiple links separated by newline
-            const links = details.kurslink
-              .split("\n")
-              .filter((link) => link.trim());
-            links.forEach((link) => {
-              detailsHTML += `<p><a href="${link.trim()}" target="_blank">📚 Kursunterlagen</a></p>`;
-            });
-          } else {
-            detailsHTML += `<p><a href="${details.kurslink}" target="_blank">📚 Kursunterlagen</a></p>`;
-          }
-        }
+          <h4 style="margin-bottom:4px;">📋 Erlaubte Hilfsmittel</h4>
+          <p style="font-size:0.9em;line-height:1.5;margin:0;">${hilfsmittel}</p>
+        `;
+      } else {
+        detailsHTML += `<p style="color:#999;font-size:0.9em;">Keine Hilfsmittel-Info verfügbar</p>`;
       }
     } else {
-      // Fallback ohne Details
       detailsHTML = `
-                <h3>${name}</h3>
-                ${ects ? `<div style="font-size: 0.9em; color: #666;">${ects}</div>` : ""}
-                <p style="color: #999; font-size: 0.9em;">Keine weiteren Details verfügbar</p>
-            `;
+        <h3>${name}</h3>
+        ${ects ? `<div style="font-size:0.9em;color:#666;">${ects}</div>` : ""}
+        <p style="color:#999;font-size:0.9em;">Keine Hilfsmittel-Info verfügbar</p>
+      `;
     }
 
     tooltip.innerHTML = detailsHTML;

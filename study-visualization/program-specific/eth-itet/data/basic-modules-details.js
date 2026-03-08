@@ -1,6 +1,7 @@
 window.StudiengangModuleDetails = {
   // #region 1 Semester
   "Lineare Algebra": {
+    hilfsmittel: "10 A4-Seiten Notizen",
     link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=192867&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-math/2015/autumn/401-1151-00L/1707a212-2905-448f-b042-6eca940f6c93.html",
@@ -16,6 +17,7 @@ window.StudiengangModuleDetails = {
     ],
   },
   "Analysis 1": {
+    hilfsmittel: "8 A4-Seiten Notizen (von Hand auf Papier geschrieben)",
     link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=193410&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-math/2016/autumn/401-1261-07L/a65b10a4-c135-3bca-a4f5-c37d9f8b0913.html",
@@ -32,6 +34,8 @@ window.StudiengangModuleDetails = {
   },
 
   Digitaltechnik: {
+    hilfsmittel:
+      "100 A4 Blätter (50 doppelseitige Blätter) — eigene Zusammenfassung, Vorlesungsfolien, alte Prüfungen...",
     link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=192958&lang=de",
     pruefungen: [
       {
@@ -52,6 +56,8 @@ window.StudiengangModuleDetails = {
     link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=193802&lang=de",
   },
   "Netzwerke und Schaltungen I": {
+    hilfsmittel:
+      '2 Seiten A4 Formelsammlung. Buch Albach "Elektrotechnik". Einfacher Taschenrechner erlaubt.',
     link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=192802&semkez=2025W&ansicht=LEHRVERANSTALTUNGEN&lang=de",
     pruefungen: [
       {
@@ -61,6 +67,7 @@ window.StudiengangModuleDetails = {
     ],
   },
   "Technische Mechanik": {
+    hilfsmittel: "8 Blätter A4",
     link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025W&ansicht=KATALOGDATEN&lerneinheitId=193886&lang=de",
     pruefungen: [
       {
@@ -81,6 +88,7 @@ window.StudiengangModuleDetails = {
 
   // #region 2 Semester
   "Analysis 2": {
+    hilfsmittel: "8 A4-Seiten Notizen (selbst von Hand auf Papier geschrieben)",
     link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=188523&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-math/2016/spring/401-1262-07L/e9902307-e2b7-44f3-8feb-115773280c13.html",
@@ -96,6 +104,8 @@ window.StudiengangModuleDetails = {
     ],
   },
   "Netzwerke und Schaltungen II": {
+    hilfsmittel:
+      "Vorlesungsbücher/-folien/-skript (GdE Albach/Schaller, Microelectr.Circuits). Taschenrechner ohne Schnittstelle/Speicher. Zusammenfassung (wird an Prüfung verteilt)",
     link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=187813&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-itet/2023/spring/227-0002-00L",
@@ -110,6 +120,7 @@ window.StudiengangModuleDetails = {
     link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=188187&lang=de",
   },
   "Physik I": {
+    hilfsmittel: "Taschenrechner ohne Kommunikationsmöglichkeit",
     link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=188037&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-phys/2023/autumn/402-0083-00L.html",
@@ -121,6 +132,7 @@ window.StudiengangModuleDetails = {
     ],
   },
   "Informatik I": {
+    hilfsmittel: "4 A4-Blätter",
     link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=187917&lang=de",
     vorlesungslink:
       "https://video.ethz.ch/lectures/d-infk/2016/autumn/252-0847-00L.html",
@@ -136,6 +148,7 @@ window.StudiengangModuleDetails = {
     ],
   },
   "Mathematische Methoden": {
+    hilfsmittel: "4 A4-Seiten (selbst verfasste Notizen)",
     link: "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2025S&ansicht=KATALOGDATEN&lerneinheitId=188879&lang=de",
     pruefungen: [
       {
